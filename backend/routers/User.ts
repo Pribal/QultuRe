@@ -4,10 +4,10 @@ import UserRepository from '../repositories/User';
 const router = express.Router();
 
 router.post('/', async (req, res) => {
-    const { email, pseudo, role, password } = req.body;
+    const { email, role, password } = req.body;
 
     try {
-        await UserRepository.createUser(email, pseudo, password, role);
+        await UserRepository.createUser(email, password, role);
 
         res.status(200).end();
     }

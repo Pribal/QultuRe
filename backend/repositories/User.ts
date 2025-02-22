@@ -3,11 +3,10 @@ import { UserType } from "../types/User";
 import bcrypt from "bcrypt";
 
 class UserRepository {
-    async createUser(email: string, pseudo: string, password: string, role: string) {
+    async createUser(email: string, password: string, role: string) {
         try {
             const newUser: UserType = {
                 email: email,
-                pseudo: pseudo,
                 role: role,
                 xp: 0,
                 password: bcrypt.hashSync(password, 10),
