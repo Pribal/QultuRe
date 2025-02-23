@@ -21,7 +21,7 @@ export const CustomBottomSheet = ({ innerRef, markerData }: { innerRef: React.Re
                         style={{
                             backgroundColor: "lightgray", zIndex: 33
                         }} 
-                        onPress={undefined}
+                        onPress={() => innerRef.current?.close()}
                     />
                 </View>
 
