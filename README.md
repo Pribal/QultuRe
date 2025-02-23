@@ -13,9 +13,8 @@ Dans un univers de plus en plus interconnecté, les questions de diversité cult
 ## Business Model
 
 Notre modèle économique repose sur un principe de bénéfice mutuel :
-- **Pour les utilisateurs** : Accès à des réductions exclusives et une expérience immersive.
-- **Pour les commerces** : Une meilleure visibilité et une augmentation du trafic client.
-- **Système de commission** : 10 % de réduction pour les clients via l'application, avec un reversement de 10 % pour LocalQuest.
+- 2 plans d'abonnements en fonction du flow touristique
+- Un service de pose de QR code pour faciliter la logistique
 
 ## Mission
 
